@@ -1,0 +1,41 @@
+<div>
+    <mat-card>
+        <mat-card-title>Excluir Evento</mat-card-title>
+    </mat-card>
+        
+        <form >
+            
+            <mat-form-field>
+                <input matInput placeholder="Nome" 
+                [(ngModel)]="evento.nome" name="nome">
+            </mat-form-field>
+            <mat-form-field>
+                <input matInput placeholder="Descrição"
+                [(ngModel)]="evento.descricao" name="descricao">
+            </mat-form-field>
+            
+            <mat-form-field>
+                <input matInput placeholder="Quantidade de Ingressos"
+                [(ngModel)]="evento.ingressos" name="ingressos">
+            </mat-form-field>
+
+            <mat-form-field>
+                <input matInput placeholder="Preço"
+                [(ngModel)]="evento.preco" name="preco">
+            </mat-form-field>
+
+            <mat-form-field>
+                <input matInput placeholder="Casa de Show"
+                [(ngModel)]="evento.casaShow" name="CasaShow">
+            </mat-form-field>
+
+        </form>
+    <button mat-raised-button (click)="deleteEvento()" color="primary">
+        Excluir
+    </button>
+    
+    <button mat-raised-button (click)="cancelEvento()" color="" >
+        Cancelar
+    </button>
+    
+    </div>

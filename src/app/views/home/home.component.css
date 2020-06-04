@@ -1,0 +1,25 @@
+.home.title{
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+
+.home.subtitle{
+    font-size: 1.1em;
+    
+
+}
+
+.home.img{
+    margin-top: 0px;
+    
+    width: 1287px;
+    
+}
+
+.home.logo{
+    height: 35px;
+    width: 35px;
+    border-radius: 10px;
+}

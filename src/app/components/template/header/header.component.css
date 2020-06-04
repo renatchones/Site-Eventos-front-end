@@ -1,0 +1,23 @@
+.header {
+    display: flex;
+    align-items: center;
+    background-color: rgb(175, 70, 201);
+}
+
+.header a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+
+}
+
+.header.logo{
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.content{
+    padding: 16px;
+    background-color: #FFF;
+}
